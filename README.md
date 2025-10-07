@@ -10,7 +10,7 @@
 
 # Description:
 
-## Part 1
+**Part I**
 
 1. Tipul problemei:
 

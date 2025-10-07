@@ -1,11 +1,12 @@
 # <p align="center">ML-Project</p>
 
 
+# Download / How to use it?
 
-Import modules:
-
-sudo apt install python3-sklearn
-sudo apt install python3-seaborn
+ - git clone https://github.com/Tibi7110/ML-Project.git
+ - cd ML-Project
+ - sudo apt install python3-sklearn
+ - sudo apt install python3-seaborn
 
 
 

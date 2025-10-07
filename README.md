@@ -1,14 +1,14 @@
 # <p align="center">ML-Project</p>
 
 
-# Download / How to use it?
+**Download / How to use it?**
 
  - git clone https://github.com/Tibi7110/ML-Project.git
  - cd ML-Project
  - sudo apt install python3-sklearn
  - sudo apt install python3-seaborn
 
-## [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
+# [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
 
 
 ### Part 1

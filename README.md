@@ -1,7 +1,7 @@
 # <p align="center">ML-Project</p>
 
 
-**Download / How to use it?**
+# Download / How to use it?
 
  - git clone https://github.com/Tibi7110/ML-Project.git
  - cd ML-Project

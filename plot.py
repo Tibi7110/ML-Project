@@ -25,7 +25,7 @@ def violin_plots(df):
         plt.ylabel(col.capitalize())
         plt.grid(True)
         plt.tight_layout()
-        plt.savefig(f'images/violin/violin_{col}_vs_{target}.png')  # salvează imaginea
+        plt.savefig(f'images/violin/violin_{col}_vs_{target}.png')  #salvam imagine
 
 def Heatmap2(train_df):
     corr = train_df.corr()
@@ -47,7 +47,7 @@ def violin_plots2(df):
         plt.ylabel(col.capitalize())
         plt.grid(True)
         plt.tight_layout()
-        plt.savefig(f'images/violin/violin_{col}_vs_{target}-test.png')  # salvează imaginea
+        plt.savefig(f'images/violin/violin_{col}_vs_{target}-test.png')
 
 
 if __name__ == '__main__':

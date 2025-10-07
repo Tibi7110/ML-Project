@@ -8,10 +8,9 @@
  - sudo apt install python3-sklearn
  - sudo apt install python3-seaborn
 
-# [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
+# Description:
 
-
-### Part 1
+## Part 1
 
 1. Tipul problemei:
 
@@ -56,12 +55,12 @@ Valori lipsă au fost introduse aleator (0 - 5 % din instanțe), iar zgomot a fo
 
 6. Analiza exploratorie a datelor (EDA):
 
-# a) Valori lipsă
+### a) Valori lipsă
 
 Calcul procentual pe coloană
 Strategii: imputare cu media (numeric) și modă (categoric), valori binare completate aleator
 
-# b) Statistici descriptive
+### b) Statistici descriptive
 
 df.describe().T pe coloane numerice
 
@@ -69,26 +68,26 @@ df.describe(include=['object', 'category']).T pe categorice
 
 Am folosit .T pentru a transpune tabelul într-un format mai frumos vizual.
 
-# c) Distribuția variabilelor
+### c) Distribuția variabilelor
 
 Histogramă: varsta, greutate, glicemie, înaltime.
 
 Countplot: activitate_fizica, fumator, risc_diabet
 
-# d) Detectarea outlierilor
+### d) Detectarea outlierilor
 
 Boxplot și regula IQR
 Outlierii au fost înlocuiți cu mediana coloanei respective
 
-# e) Corelații
+### e) Corelații
 
 Matrice de corelații pentru variabile numerice (heatmap)
 
-# f) Relații cu variabila țintă
+### f) Relații cu variabila țintă
 
 Violin plots: activitate_fizica, fumator, tensiune, glicemie vs risc_diabet
 
-# g) Interpretări
+### g) Interpretări
 
 Activitate fizică scăzută și fumatul corelează cu risc crescut
 Glicemia > 140 este asociată cu risc 1
@@ -121,3 +120,5 @@ Imputarea valorilor lipsă:
 Înlocuirea outlierilor pe baza regulii IQR (cu mediana).
 
 Codificare label pentru variabilele categorice (activitate_fizica).
+
+# [Project link](https://archive.curs.upb.ro/2024/pluginfile.php/347950/mod_resource/content/1/PCLP3_Proiect_2025.pdf)

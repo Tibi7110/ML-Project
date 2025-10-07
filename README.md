@@ -8,7 +8,7 @@
  - sudo apt install python3-sklearn
  - sudo apt install python3-seaborn
 
-## [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
+# [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
 
 
 ### Part 1

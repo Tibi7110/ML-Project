@@ -1,4 +1,4 @@
-<p align="center"><b>ML-Project</b></p>
+<h1 align="center"><b>ML-Project</b></h1>
 
 
 # Download / How to use it?
